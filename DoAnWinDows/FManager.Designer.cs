@@ -31,6 +31,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.managerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employeeManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.utilitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.transactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rechargeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.withdrawToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bankSavingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -38,7 +44,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.managerToolStripMenuItem});
+            this.managerToolStripMenuItem,
+            this.utilitiesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -48,7 +55,8 @@
             // managerToolStripMenuItem
             // 
             this.managerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.accountManagerToolStripMenuItem});
+            this.accountManagerToolStripMenuItem,
+            this.employeeManagerToolStripMenuItem});
             this.managerToolStripMenuItem.Name = "managerToolStripMenuItem";
             this.managerToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.managerToolStripMenuItem.Text = "Manager";
@@ -56,9 +64,55 @@
             // accountManagerToolStripMenuItem
             // 
             this.accountManagerToolStripMenuItem.Name = "accountManagerToolStripMenuItem";
-            this.accountManagerToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.accountManagerToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.accountManagerToolStripMenuItem.Text = "Account Manager";
             this.accountManagerToolStripMenuItem.Click += new System.EventHandler(this.accountManagerToolStripMenuItem_Click);
+            // 
+            // employeeManagerToolStripMenuItem
+            // 
+            this.employeeManagerToolStripMenuItem.Name = "employeeManagerToolStripMenuItem";
+            this.employeeManagerToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.employeeManagerToolStripMenuItem.Text = "Employee Manager";
+            this.employeeManagerToolStripMenuItem.Click += new System.EventHandler(this.employeeManagerToolStripMenuItem_Click);
+            // 
+            // utilitiesToolStripMenuItem
+            // 
+            this.utilitiesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.transactionsToolStripMenuItem,
+            this.rechargeToolStripMenuItem,
+            this.withdrawToolStripMenuItem,
+            this.bankSavingsToolStripMenuItem});
+            this.utilitiesToolStripMenuItem.Name = "utilitiesToolStripMenuItem";
+            this.utilitiesToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.utilitiesToolStripMenuItem.Text = "Utilities";
+            // 
+            // transactionsToolStripMenuItem
+            // 
+            this.transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
+            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.transactionsToolStripMenuItem.Text = "Transactions";
+            this.transactionsToolStripMenuItem.Click += new System.EventHandler(this.transactionsToolStripMenuItem_Click);
+            // 
+            // rechargeToolStripMenuItem
+            // 
+            this.rechargeToolStripMenuItem.Name = "rechargeToolStripMenuItem";
+            this.rechargeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rechargeToolStripMenuItem.Text = "Recharge";
+            this.rechargeToolStripMenuItem.Click += new System.EventHandler(this.rechargeToolStripMenuItem_Click);
+            // 
+            // withdrawToolStripMenuItem
+            // 
+            this.withdrawToolStripMenuItem.Name = "withdrawToolStripMenuItem";
+            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.withdrawToolStripMenuItem.Text = "Withdraw";
+            this.withdrawToolStripMenuItem.Click += new System.EventHandler(this.withdrawToolStripMenuItem_Click);
+            // 
+            // bankSavingsToolStripMenuItem
+            // 
+            this.bankSavingsToolStripMenuItem.Name = "bankSavingsToolStripMenuItem";
+            this.bankSavingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bankSavingsToolStripMenuItem.Text = "BankSavings";
+            this.bankSavingsToolStripMenuItem.Click += new System.EventHandler(this.bankSavingsToolStripMenuItem_Click);
             // 
             // panelContainer
             // 
@@ -90,5 +144,11 @@
         private ToolStripMenuItem managerToolStripMenuItem;
         private ToolStripMenuItem accountManagerToolStripMenuItem;
         private Panel panelContainer;
+        private ToolStripMenuItem employeeManagerToolStripMenuItem;
+        private ToolStripMenuItem utilitiesToolStripMenuItem;
+        private ToolStripMenuItem transactionsToolStripMenuItem;
+        private ToolStripMenuItem rechargeToolStripMenuItem;
+        private ToolStripMenuItem withdrawToolStripMenuItem;
+        private ToolStripMenuItem bankSavingsToolStripMenuItem;
     }
 }

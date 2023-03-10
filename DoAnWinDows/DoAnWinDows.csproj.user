@@ -10,5 +10,20 @@
     <Compile Update="UCAccountManager.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UCBankSavings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCEmployeeManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCRecharge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCTransactions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCWithdraw.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

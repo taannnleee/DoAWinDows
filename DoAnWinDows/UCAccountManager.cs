@@ -12,7 +12,7 @@ namespace DoAnWinDows
 {
     public partial class UCAccountManager : UserControl
     {
-        AccountDao account = new AccountDao();
+        AccountDao accountDao = new AccountDao();
         public UCAccountManager()
         {
             InitializeComponent();
@@ -20,17 +20,23 @@ namespace DoAnWinDows
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-
+            Account user = new Account(txtName.Text, txtPhone.Text, txtPassWord.Text, txtIdentitycard.Text, txtJob.Text, txtEmail.Text, txtAddress.Text, dateTimeDateOfBirth.Value, comboBoxGender.SelectedItem.ToString());
+            accountDao.Them(user);
+            LoadDanhSach();
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-
+            Account user = new Account(txtName.Text, txtPhone.Text, txtPassWord.Text, txtIdentitycard.Text, txtJob.Text, txtEmail.Text, txtAddress.Text, dateTimeDateOfBirth.Value, comboBoxGender.SelectedItem.ToString());
+            accountDao.Sua(user);
+            LoadDanhSach();
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-
+            Account user = new Account(txtName.Text, txtPhone.Text, txtPassWord.Text, txtIdentitycard.Text, txtJob.Text, txtEmail.Text, txtAddress.Text, dateTimeDateOfBirth.Value, comboBoxGender.SelectedItem.ToString());
+            accountDao.Xoa(user);
+            LoadDanhSach();
         }
 
         private void UCAccountManager_Load(object sender, EventArgs e)
@@ -39,7 +45,7 @@ namespace DoAnWinDows
         }
         private void LoadDanhSach()
         {
-            this.gvQuanLy.DataSource = account.DanhSachQuanLy();
+            this.gvQuanLy.DataSource = accountDao.DanhSachQuanLy();
         }
     }
 }
