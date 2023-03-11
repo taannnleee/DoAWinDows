@@ -38,5 +38,10 @@ namespace DoAnWinDows
             string sqlStr = string.Format("Select * From UserAccount WHERE IdentityCard = '{0}'", account.Identitycard);
             return dbconnect.DanhSach(sqlStr);
         }
+        public void Recharge(Account account)
+        {
+            string sqlStr = string.Format("UPDATE UserAccount SET Balance='{0}' WHERE IdentityCard='{1}'",account.Balance,account.Identitycard);
+            dbconnect.ThucThi(sqlStr);
+        }
     }
 }

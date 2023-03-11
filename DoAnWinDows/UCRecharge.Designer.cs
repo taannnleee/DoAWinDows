@@ -37,18 +37,21 @@
             this.txtAccountNumber = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.errorInvalidNontification = new System.Windows.Forms.ErrorProvider(this.components);
+            this.txtAmountOfMoney = new System.Windows.Forms.TextBox();
+            this.lblAmountOfMoney = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gvInforAccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorInvalidNontification)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRecharge
             // 
-            this.btnRecharge.Location = new System.Drawing.Point(48, 390);
+            this.btnRecharge.Location = new System.Drawing.Point(48, 413);
             this.btnRecharge.Name = "btnRecharge";
             this.btnRecharge.Size = new System.Drawing.Size(154, 29);
             this.btnRecharge.TabIndex = 20;
             this.btnRecharge.Text = "Recharge";
             this.btnRecharge.UseVisualStyleBackColor = true;
+            this.btnRecharge.Click += new System.EventHandler(this.btnRecharge_Click);
             // 
             // label3
             // 
@@ -109,10 +112,28 @@
             // 
             this.errorInvalidNontification.ContainerControl = this;
             // 
+            // txtAmountOfMoney
+            // 
+            this.txtAmountOfMoney.Location = new System.Drawing.Point(48, 357);
+            this.txtAmountOfMoney.Name = "txtAmountOfMoney";
+            this.txtAmountOfMoney.Size = new System.Drawing.Size(215, 27);
+            this.txtAmountOfMoney.TabIndex = 21;
+            // 
+            // lblAmountOfMoney
+            // 
+            this.lblAmountOfMoney.AutoSize = true;
+            this.lblAmountOfMoney.Location = new System.Drawing.Point(48, 318);
+            this.lblAmountOfMoney.Name = "lblAmountOfMoney";
+            this.lblAmountOfMoney.Size = new System.Drawing.Size(129, 20);
+            this.lblAmountOfMoney.TabIndex = 22;
+            this.lblAmountOfMoney.Text = "Amount of money";
+            // 
             // UCRecharge
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblAmountOfMoney);
+            this.Controls.Add(this.txtAmountOfMoney);
             this.Controls.Add(this.btnRecharge);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnShowInfor);
@@ -140,5 +161,7 @@
         private TextBox txtAccountNumber;
         private Label label1;
         private ErrorProvider errorInvalidNontification;
+        private Label lblAmountOfMoney;
+        private TextBox txtAmountOfMoney;
     }
 }
