@@ -2296,11 +2296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+      "projectUniqueName": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
       "projectName": "DoAnWinDows",
-      "projectPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+      "projectPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
       "packagesPath": "C:\\Users\\Tan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAnWinDows\\obj\\",
+      "outputPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
