@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6PJy8j1Z4BPUJy1chvwk4suWm2cb293wHijX1kFaIh7ePeZEEwtIWmkEB9k6Ahm5KXXOpevBZn61mIC6QGDZdg==",
+  "dgSpecHash": "B7FtxfmkrwhE+t0Q4ZGPueIolbYrXUePoMs9cRzQXIiXvbsc6UZVkesUgNZXPJ1Bdcc/6Y1Dm4zQI4BFo6mEUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+  "projectFilePath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Tan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

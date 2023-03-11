@@ -60,5 +60,17 @@ namespace DoAnWinDows
             UCBankSavings banksavings = new UCBankSavings();
             AddUserControl(banksavings);
         }
+
+        private void employInformationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCEmployeeInformation employee = new UCEmployeeInformation();
+            AddUserControl(employee);
+        }
+
+        private void accountInformationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UCAccountInformation account = new UCAccountInformation();
+            AddUserControl(account);
+        }
     }
 }

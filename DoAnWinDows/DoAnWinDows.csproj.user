@@ -7,10 +7,16 @@
     <Compile Update="FManager.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UCAccountInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UCAccountManager.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UCBankSavings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UCEmployeeInformation.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UCEmployeeManager.cs">

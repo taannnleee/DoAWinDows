@@ -9,3 +9,15 @@ Address_ nvarchar(100),
 DateOfBirth Date, 
 Gender nvarchar(100),
 )
+
+create table EmployeeInformation(
+ID nvarchar(100),
+FullName nvarchar(100),
+Phone nvarchar(100),
+IdentityCard nvarchar(100),
+Email nvarchar(100),
+Address_ nvarchar(100),
+DateOfBirth Date,
+Gender nvarchar(100),
+Salary nvarchar(100),
+)
