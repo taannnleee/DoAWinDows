@@ -45,7 +45,7 @@
             // 
             // btnRecharge
             // 
-            this.btnRecharge.Location = new System.Drawing.Point(48, 413);
+            this.btnRecharge.Location = new System.Drawing.Point(48, 411);
             this.btnRecharge.Name = "btnRecharge";
             this.btnRecharge.Size = new System.Drawing.Size(154, 29);
             this.btnRecharge.TabIndex = 20;
@@ -57,7 +57,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Showcard Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(48, 100);
+            this.label3.Location = new System.Drawing.Point(304, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 42);
             this.label3.TabIndex = 19;
@@ -65,7 +65,7 @@
             // 
             // btnShowInfor
             // 
-            this.btnShowInfor.Location = new System.Drawing.Point(48, 263);
+            this.btnShowInfor.Location = new System.Drawing.Point(48, 266);
             this.btnShowInfor.Name = "btnShowInfor";
             this.btnShowInfor.Size = new System.Drawing.Size(154, 29);
             this.btnShowInfor.TabIndex = 18;
@@ -94,7 +94,7 @@
             // 
             // txtAccountNumber
             // 
-            this.txtAccountNumber.Location = new System.Drawing.Point(48, 207);
+            this.txtAccountNumber.Location = new System.Drawing.Point(48, 216);
             this.txtAccountNumber.Name = "txtAccountNumber";
             this.txtAccountNumber.Size = new System.Drawing.Size(215, 27);
             this.txtAccountNumber.TabIndex = 15;
@@ -114,7 +114,7 @@
             // 
             // txtAmountOfMoney
             // 
-            this.txtAmountOfMoney.Location = new System.Drawing.Point(48, 357);
+            this.txtAmountOfMoney.Location = new System.Drawing.Point(48, 361);
             this.txtAmountOfMoney.Name = "txtAmountOfMoney";
             this.txtAmountOfMoney.Size = new System.Drawing.Size(215, 27);
             this.txtAmountOfMoney.TabIndex = 21;

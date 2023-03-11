@@ -34,8 +34,8 @@
             this.lblDepositAmount = new System.Windows.Forms.Label();
             this.comboBoxGender = new System.Windows.Forms.ComboBox();
             this.lblGender = new System.Windows.Forms.Label();
-            this.dateTimeDateOfBirth = new System.Windows.Forms.DateTimePicker();
-            this.lblDateofbirth = new System.Windows.Forms.Label();
+            this.dateTimeSentDate = new System.Windows.Forms.DateTimePicker();
+            this.lblSentDate = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtJob = new System.Windows.Forms.TextBox();
@@ -69,34 +69,34 @@
             "6 months => 3.5 %",
             "9 months => 4.0 %",
             "12 months => 4.5 %"});
-            this.comboBoxSendingTime.Location = new System.Drawing.Point(100, 283);
+            this.comboBoxSendingTime.Location = new System.Drawing.Point(114, 359);
+            this.comboBoxSendingTime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBoxSendingTime.Name = "comboBoxSendingTime";
-            this.comboBoxSendingTime.Size = new System.Drawing.Size(199, 23);
+            this.comboBoxSendingTime.Size = new System.Drawing.Size(227, 28);
             this.comboBoxSendingTime.TabIndex = 257;
             // 
             // lblSendingTime
             // 
             this.lblSendingTime.AutoSize = true;
-            this.lblSendingTime.Location = new System.Drawing.Point(15, 291);
+            this.lblSendingTime.Location = new System.Drawing.Point(17, 359);
             this.lblSendingTime.Name = "lblSendingTime";
-            this.lblSendingTime.Size = new System.Drawing.Size(76, 15);
+            this.lblSendingTime.Size = new System.Drawing.Size(96, 20);
             this.lblSendingTime.TabIndex = 256;
             this.lblSendingTime.Text = "SendingTime";
             // 
             // txtDepositAmount
             // 
-            this.txtDepositAmount.Location = new System.Drawing.Point(130, 382);
-            this.txtDepositAmount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDepositAmount.Location = new System.Drawing.Point(148, 509);
             this.txtDepositAmount.Name = "txtDepositAmount";
-            this.txtDepositAmount.Size = new System.Drawing.Size(199, 23);
+            this.txtDepositAmount.Size = new System.Drawing.Size(193, 27);
             this.txtDepositAmount.TabIndex = 255;
             // 
             // lblDepositAmount
             // 
             this.lblDepositAmount.AutoSize = true;
-            this.lblDepositAmount.Location = new System.Drawing.Point(33, 382);
+            this.lblDepositAmount.Location = new System.Drawing.Point(17, 509);
             this.lblDepositAmount.Name = "lblDepositAmount";
-            this.lblDepositAmount.Size = new System.Drawing.Size(91, 15);
+            this.lblDepositAmount.Size = new System.Drawing.Size(114, 20);
             this.lblDepositAmount.TabIndex = 254;
             this.lblDepositAmount.Text = "DepositAmount";
             // 
@@ -106,195 +106,190 @@
             this.comboBoxGender.Items.AddRange(new object[] {
             "male",
             "female"});
-            this.comboBoxGender.Location = new System.Drawing.Point(100, 347);
+            this.comboBoxGender.Location = new System.Drawing.Point(114, 459);
+            this.comboBoxGender.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBoxGender.Name = "comboBoxGender";
-            this.comboBoxGender.Size = new System.Drawing.Size(199, 23);
+            this.comboBoxGender.Size = new System.Drawing.Size(227, 28);
             this.comboBoxGender.TabIndex = 253;
             // 
             // lblGender
             // 
             this.lblGender.AutoSize = true;
-            this.lblGender.Location = new System.Drawing.Point(33, 350);
+            this.lblGender.Location = new System.Drawing.Point(17, 459);
             this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(45, 15);
+            this.lblGender.Size = new System.Drawing.Size(57, 20);
             this.lblGender.TabIndex = 252;
             this.lblGender.Text = "Gender";
             // 
-            // dateTimeDateOfBirth
+            // dateTimeSentDate
             // 
-            this.dateTimeDateOfBirth.Location = new System.Drawing.Point(99, 312);
-            this.dateTimeDateOfBirth.Name = "dateTimeDateOfBirth";
-            this.dateTimeDateOfBirth.Size = new System.Drawing.Size(200, 23);
-            this.dateTimeDateOfBirth.TabIndex = 251;
+            this.dateTimeSentDate.Location = new System.Drawing.Point(114, 409);
+            this.dateTimeSentDate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dateTimeSentDate.Name = "dateTimeSentDate";
+            this.dateTimeSentDate.Size = new System.Drawing.Size(228, 27);
+            this.dateTimeSentDate.TabIndex = 251;
             // 
-            // lblDateofbirth
+            // lblSentDate
             // 
-            this.lblDateofbirth.AutoSize = true;
-            this.lblDateofbirth.Location = new System.Drawing.Point(33, 318);
-            this.lblDateofbirth.Name = "lblDateofbirth";
-            this.lblDateofbirth.Size = new System.Drawing.Size(67, 15);
-            this.lblDateofbirth.TabIndex = 250;
-            this.lblDateofbirth.Text = "Dateofbirth";
+            this.lblSentDate.AutoSize = true;
+            this.lblSentDate.Location = new System.Drawing.Point(17, 409);
+            this.lblSentDate.Name = "lblSentDate";
+            this.lblSentDate.Size = new System.Drawing.Size(72, 20);
+            this.lblSentDate.TabIndex = 250;
+            this.lblSentDate.Text = "Sent date";
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(100, 251);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtAddress.Location = new System.Drawing.Point(114, 309);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(199, 23);
+            this.txtAddress.Size = new System.Drawing.Size(227, 27);
             this.txtAddress.TabIndex = 249;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(100, 217);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtEmail.Location = new System.Drawing.Point(114, 259);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(199, 23);
+            this.txtEmail.Size = new System.Drawing.Size(227, 27);
             this.txtEmail.TabIndex = 248;
             // 
             // txtJob
             // 
-            this.txtJob.Location = new System.Drawing.Point(99, 170);
-            this.txtJob.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtJob.Location = new System.Drawing.Point(114, 209);
             this.txtJob.Name = "txtJob";
-            this.txtJob.Size = new System.Drawing.Size(199, 23);
+            this.txtJob.Size = new System.Drawing.Size(227, 27);
             this.txtJob.TabIndex = 247;
             // 
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(33, 259);
+            this.lblAddress.Location = new System.Drawing.Point(17, 309);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(49, 15);
+            this.lblAddress.Size = new System.Drawing.Size(62, 20);
             this.lblAddress.TabIndex = 246;
             this.lblAddress.Text = "Address";
             // 
             // tblEmail
             // 
             this.tblEmail.AutoSize = true;
-            this.tblEmail.Location = new System.Drawing.Point(30, 217);
+            this.tblEmail.Location = new System.Drawing.Point(17, 259);
             this.tblEmail.Name = "tblEmail";
-            this.tblEmail.Size = new System.Drawing.Size(36, 15);
+            this.tblEmail.Size = new System.Drawing.Size(46, 20);
             this.tblEmail.TabIndex = 245;
             this.tblEmail.Text = "Email";
             // 
             // lblJob
             // 
             this.lblJob.AutoSize = true;
-            this.lblJob.Location = new System.Drawing.Point(30, 178);
+            this.lblJob.Location = new System.Drawing.Point(17, 209);
             this.lblJob.Name = "lblJob";
-            this.lblJob.Size = new System.Drawing.Size(25, 15);
+            this.lblJob.Size = new System.Drawing.Size(32, 20);
             this.lblJob.TabIndex = 244;
             this.lblJob.Text = "Job";
             // 
             // gvQuanLy
             // 
             this.gvQuanLy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvQuanLy.Location = new System.Drawing.Point(321, 44);
-            this.gvQuanLy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gvQuanLy.Location = new System.Drawing.Point(367, 59);
             this.gvQuanLy.Name = "gvQuanLy";
             this.gvQuanLy.RowHeadersWidth = 51;
             this.gvQuanLy.RowTemplate.Height = 29;
-            this.gvQuanLy.Size = new System.Drawing.Size(485, 326);
+            this.gvQuanLy.Size = new System.Drawing.Size(554, 435);
             this.gvQuanLy.TabIndex = 243;
             // 
             // btnSua
             // 
             this.btnSua.AutoSize = true;
-            this.btnSua.Location = new System.Drawing.Point(464, 380);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSua.Location = new System.Drawing.Point(530, 507);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(90, 25);
+            this.btnSua.Size = new System.Drawing.Size(103, 33);
             this.btnSua.TabIndex = 242;
             this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Showcard Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(300, 0);
+            this.label3.Location = new System.Drawing.Point(343, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(209, 33);
+            this.label3.Size = new System.Drawing.Size(248, 42);
             this.label3.TabIndex = 241;
             this.label3.Text = "BankSavings";
             // 
             // btnXoa
             // 
             this.btnXoa.AutoSize = true;
-            this.btnXoa.Location = new System.Drawing.Point(560, 380);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoa.Location = new System.Drawing.Point(640, 507);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(90, 25);
+            this.btnXoa.Size = new System.Drawing.Size(103, 33);
             this.btnXoa.TabIndex = 240;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
             this.btnThem.AutoSize = true;
-            this.btnThem.Location = new System.Drawing.Point(376, 380);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThem.Location = new System.Drawing.Point(430, 507);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(82, 25);
+            this.btnThem.Size = new System.Drawing.Size(94, 33);
             this.btnThem.TabIndex = 239;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // txtIdentitycard
             // 
-            this.txtIdentitycard.Location = new System.Drawing.Point(99, 134);
-            this.txtIdentitycard.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtIdentitycard.Location = new System.Drawing.Point(114, 159);
             this.txtIdentitycard.Name = "txtIdentitycard";
-            this.txtIdentitycard.Size = new System.Drawing.Size(199, 23);
+            this.txtIdentitycard.Size = new System.Drawing.Size(227, 27);
             this.txtIdentitycard.TabIndex = 237;
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(100, 92);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtPhone.Location = new System.Drawing.Point(114, 109);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(199, 23);
+            this.txtPhone.Size = new System.Drawing.Size(227, 27);
             this.txtPhone.TabIndex = 238;
             // 
             // lblIdentitycard
             // 
             this.lblIdentitycard.AutoSize = true;
-            this.lblIdentitycard.Location = new System.Drawing.Point(30, 134);
+            this.lblIdentitycard.Location = new System.Drawing.Point(17, 159);
             this.lblIdentitycard.Name = "lblIdentitycard";
-            this.lblIdentitycard.Size = new System.Drawing.Size(70, 15);
+            this.lblIdentitycard.Size = new System.Drawing.Size(88, 20);
             this.lblIdentitycard.TabIndex = 234;
             this.lblIdentitycard.Text = "Identitycard";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(100, 44);
-            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtName.Location = new System.Drawing.Point(114, 59);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(199, 23);
+            this.txtName.Size = new System.Drawing.Size(227, 27);
             this.txtName.TabIndex = 236;
             // 
             // lblPhone
             // 
             this.lblPhone.AutoSize = true;
-            this.lblPhone.Location = new System.Drawing.Point(30, 92);
+            this.lblPhone.Location = new System.Drawing.Point(17, 109);
             this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(41, 15);
+            this.lblPhone.Size = new System.Drawing.Size(50, 20);
             this.lblPhone.TabIndex = 235;
             this.lblPhone.Text = "Phone";
             // 
             // lblFullName
             // 
             this.lblFullName.AutoSize = true;
-            this.lblFullName.Location = new System.Drawing.Point(24, 44);
+            this.lblFullName.Location = new System.Drawing.Point(17, 59);
             this.lblFullName.Name = "lblFullName";
-            this.lblFullName.Size = new System.Drawing.Size(58, 15);
+            this.lblFullName.Size = new System.Drawing.Size(72, 20);
             this.lblFullName.TabIndex = 233;
             this.lblFullName.Text = "FullName";
             // 
             // UCBankSavings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.comboBoxSendingTime);
             this.Controls.Add(this.lblSendingTime);
@@ -302,8 +297,8 @@
             this.Controls.Add(this.lblDepositAmount);
             this.Controls.Add(this.comboBoxGender);
             this.Controls.Add(this.lblGender);
-            this.Controls.Add(this.dateTimeDateOfBirth);
-            this.Controls.Add(this.lblDateofbirth);
+            this.Controls.Add(this.dateTimeSentDate);
+            this.Controls.Add(this.lblSentDate);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtJob);
@@ -321,8 +316,10 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.lblFullName);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "UCBankSavings";
-            this.Size = new System.Drawing.Size(709, 419);
+            this.Size = new System.Drawing.Size(810, 559);
+            this.Load += new System.EventHandler(this.UCBankSavings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gvQuanLy)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -337,8 +334,8 @@
         private Label lblDepositAmount;
         private ComboBox comboBoxGender;
         private Label lblGender;
-        private DateTimePicker dateTimeDateOfBirth;
-        private Label lblDateofbirth;
+        private DateTimePicker dateTimeSentDate;
+        private Label lblSentDate;
         private TextBox txtAddress;
         private TextBox txtEmail;
         private TextBox txtJob;
