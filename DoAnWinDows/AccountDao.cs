@@ -33,5 +33,11 @@ namespace DoAnWinDows
             string sqlStr = string.Format("UPDATE UserAccount SET FullName = '{0}',Phone = '{1}',Pass ='{2}',Job='{3}',Email='{4}',Address_='{5}',DateOfBirth='{6}',Gender='{7}' where IdentityCard='{8}'", account.Name, account.Phone, account.Password, account.Job, account.Email, account.Address,account.Dateofbirth, account.Gender, account.Identitycard);
             dbconnect.ThucThi(sqlStr);
         }
+
+        public DataTable Search()
+        {
+            string sqlStr = string.Format("Select * From UserAccount WHERE IdentityCard = '{0}'",1);
+            return dbconnect.DanhSach(sqlStr);
+        }
     }
 }

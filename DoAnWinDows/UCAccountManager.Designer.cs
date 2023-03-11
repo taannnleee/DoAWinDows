@@ -53,6 +53,7 @@
             this.lblPassword = new System.Windows.Forms.Label();
             this.lblPhone = new System.Windows.Forms.Label();
             this.lblFullName = new System.Windows.Forms.Label();
+            this.btnSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gvQuanLy)).BeginInit();
             this.SuspendLayout();
             // 
@@ -174,7 +175,7 @@
             // btnSua
             // 
             this.btnSua.AutoSize = true;
-            this.btnSua.Location = new System.Drawing.Point(432, 338);
+            this.btnSua.Location = new System.Drawing.Point(482, 338);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(90, 25);
@@ -196,7 +197,7 @@
             // btnXoa
             // 
             this.btnXoa.AutoSize = true;
-            this.btnXoa.Location = new System.Drawing.Point(562, 338);
+            this.btnXoa.Location = new System.Drawing.Point(389, 338);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(90, 25);
@@ -208,7 +209,7 @@
             // btnThem
             // 
             this.btnThem.AutoSize = true;
-            this.btnThem.Location = new System.Drawing.Point(317, 338);
+            this.btnThem.Location = new System.Drawing.Point(301, 338);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(82, 25);
@@ -285,10 +286,23 @@
             this.lblFullName.TabIndex = 207;
             this.lblFullName.Text = "FullName";
             // 
+            // btnSearch
+            // 
+            this.btnSearch.AutoSize = true;
+            this.btnSearch.Location = new System.Drawing.Point(578, 338);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(90, 25);
+            this.btnSearch.TabIndex = 231;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // UCAccountManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtBalance);
             this.Controls.Add(this.lblBalance);
             this.Controls.Add(this.comboBoxGender);
@@ -350,5 +364,6 @@
         private Label lblPassword;
         private Label lblPhone;
         private Label lblFullName;
+        private Button btnSearch;
     }
 }

@@ -47,5 +47,11 @@ namespace DoAnWinDows
         {
             this.gvQuanLy.DataSource = accountDao.DanhSachQuanLy();
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            this.gvQuanLy.DataSource = accountDao.Search();
+            //LoadDanhSach();
+        }
     }
 }
