@@ -28,123 +28,130 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtAmount = new System.Windows.Forms.TextBox();
-            this.lblAmount = new System.Windows.Forms.Label();
-            this.txtPhone = new System.Windows.Forms.TextBox();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.lblPhone = new System.Windows.Forms.Label();
-            this.lblFullName = new System.Windows.Forms.Label();
-            this.txtAccountBalance = new System.Windows.Forms.TextBox();
-            this.btnWithdraw = new System.Windows.Forms.Button();
-            this.lblAccountBalance = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            label1 = new Label();
+            label2 = new Label();
+            txtIdentityCard = new TextBox();
+            gvInformation = new DataGridView();
+            btnSearch = new Button();
+            btnWithdraw = new Button();
+            txtMoneyWithdraw = new TextBox();
+            label3 = new Label();
+            errorIdentityCard = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)gvInformation).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)errorIdentityCard).BeginInit();
+            SuspendLayout();
             // 
-            // txtAmount
+            // label1
             // 
-            this.txtAmount.Location = new System.Drawing.Point(212, 219);
-            this.txtAmount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(199, 23);
-            this.txtAmount.TabIndex = 217;
+            label1.AutoSize = true;
+            label1.Font = new Font("Showcard Gothic", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(48, 43);
+            label1.Name = "label1";
+            label1.Size = new Size(228, 43);
+            label1.TabIndex = 0;
+            label1.Text = "WITHDRAW";
             // 
-            // lblAmount
+            // label2
             // 
-            this.lblAmount.AutoSize = true;
-            this.lblAmount.Location = new System.Drawing.Point(139, 227);
-            this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(51, 15);
-            this.lblAmount.TabIndex = 216;
-            this.lblAmount.Text = "Amount";
+            label2.AutoSize = true;
+            label2.Location = new Point(48, 120);
+            label2.Name = "label2";
+            label2.Size = new Size(211, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Please enter your Identity Card";
             // 
-            // txtPhone
+            // txtIdentityCard
             // 
-            this.txtPhone.Location = new System.Drawing.Point(212, 173);
-            this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(199, 23);
-            this.txtPhone.TabIndex = 215;
+            txtIdentityCard.Location = new Point(48, 162);
+            txtIdentityCard.Name = "txtIdentityCard";
+            txtIdentityCard.Size = new Size(309, 27);
+            txtIdentityCard.TabIndex = 2;
             // 
-            // txtName
+            // gvInformation
             // 
-            this.txtName.Location = new System.Drawing.Point(212, 125);
-            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(199, 23);
-            this.txtName.TabIndex = 214;
+            gvInformation.AllowUserToAddRows = false;
+            gvInformation.AllowUserToDeleteRows = false;
+            gvInformation.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            gvInformation.Location = new Point(48, 218);
+            gvInformation.Name = "gvInformation";
+            gvInformation.ReadOnly = true;
+            gvInformation.RowHeadersWidth = 51;
+            gvInformation.RowTemplate.Height = 29;
+            gvInformation.Size = new Size(686, 92);
+            gvInformation.TabIndex = 3;
             // 
-            // lblPhone
+            // btnSearch
             // 
-            this.lblPhone.AutoSize = true;
-            this.lblPhone.Location = new System.Drawing.Point(142, 173);
-            this.lblPhone.Name = "lblPhone";
-            this.lblPhone.Size = new System.Drawing.Size(41, 15);
-            this.lblPhone.TabIndex = 213;
-            this.lblPhone.Text = "Phone";
-            // 
-            // lblFullName
-            // 
-            this.lblFullName.AutoSize = true;
-            this.lblFullName.Location = new System.Drawing.Point(136, 125);
-            this.lblFullName.Name = "lblFullName";
-            this.lblFullName.Size = new System.Drawing.Size(58, 15);
-            this.lblFullName.TabIndex = 212;
-            this.lblFullName.Text = "FullName";
-            // 
-            // txtAccountBalance
-            // 
-            this.txtAccountBalance.Location = new System.Drawing.Point(477, 28);
-            this.txtAccountBalance.Name = "txtAccountBalance";
-            this.txtAccountBalance.Size = new System.Drawing.Size(100, 23);
-            this.txtAccountBalance.TabIndex = 211;
+            btnSearch.Location = new Point(428, 162);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(94, 29);
+            btnSearch.TabIndex = 4;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // btnWithdraw
             // 
-            this.btnWithdraw.Location = new System.Drawing.Point(402, 372);
-            this.btnWithdraw.Name = "btnWithdraw";
-            this.btnWithdraw.Size = new System.Drawing.Size(75, 23);
-            this.btnWithdraw.TabIndex = 210;
-            this.btnWithdraw.Text = "Withdraw";
-            this.btnWithdraw.UseVisualStyleBackColor = true;
+            btnWithdraw.Location = new Point(428, 380);
+            btnWithdraw.Name = "btnWithdraw";
+            btnWithdraw.Size = new Size(94, 32);
+            btnWithdraw.TabIndex = 5;
+            btnWithdraw.Text = "Withdraw";
+            btnWithdraw.UseVisualStyleBackColor = true;
+            btnWithdraw.Click += btnWithdraw_Click;
             // 
-            // lblAccountBalance
+            // txtMoneyWithdraw
             // 
-            this.lblAccountBalance.AutoSize = true;
-            this.lblAccountBalance.Location = new System.Drawing.Point(369, 31);
-            this.lblAccountBalance.Name = "lblAccountBalance";
-            this.lblAccountBalance.Size = new System.Drawing.Size(93, 15);
-            this.lblAccountBalance.TabIndex = 209;
-            this.lblAccountBalance.Text = "AccountBalance";
+            txtMoneyWithdraw.Location = new Point(48, 385);
+            txtMoneyWithdraw.Name = "txtMoneyWithdraw";
+            txtMoneyWithdraw.Size = new Size(309, 27);
+            txtMoneyWithdraw.TabIndex = 7;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(48, 343);
+            label3.Name = "label3";
+            label3.Size = new Size(221, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Please enter money to withdraw";
+            // 
+            // errorIdentityCard
+            // 
+            errorIdentityCard.ContainerControl = this;
             // 
             // UCWithdraw
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.txtAmount);
-            this.Controls.Add(this.lblAmount);
-            this.Controls.Add(this.txtPhone);
-            this.Controls.Add(this.txtName);
-            this.Controls.Add(this.lblPhone);
-            this.Controls.Add(this.lblFullName);
-            this.Controls.Add(this.txtAccountBalance);
-            this.Controls.Add(this.btnWithdraw);
-            this.Controls.Add(this.lblAccountBalance);
-            this.Name = "UCWithdraw";
-            this.Size = new System.Drawing.Size(712, 423);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(txtMoneyWithdraw);
+            Controls.Add(label3);
+            Controls.Add(btnWithdraw);
+            Controls.Add(btnSearch);
+            Controls.Add(gvInformation);
+            Controls.Add(txtIdentityCard);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "UCWithdraw";
+            Size = new Size(814, 564);
+            ((System.ComponentModel.ISupportInitialize)gvInformation).EndInit();
+            ((System.ComponentModel.ISupportInitialize)errorIdentityCard).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TextBox txtAmount;
-        private Label lblAmount;
-        private TextBox txtPhone;
-        private TextBox txtName;
-        private Label lblPhone;
-        private Label lblFullName;
-        private TextBox txtAccountBalance;
+        private Label label1;
+        private Label label2;
+        private TextBox txtIdentityCard;
+        private DataGridView gvInformation;
+        private Button btnSearch;
         private Button btnWithdraw;
-        private Label lblAccountBalance;
+        private TextBox txtMoneyWithdraw;
+        private Label label3;
+        private ErrorProvider errorIdentityCard;
     }
 }

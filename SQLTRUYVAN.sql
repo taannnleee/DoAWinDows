@@ -8,4 +8,5 @@ Email nvarchar(100),
 Address_ nvarchar(100),
 DateOfBirth Date, 
 Gender nvarchar(100),
+Balance int,
 )

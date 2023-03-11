@@ -28,120 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtMessage = new System.Windows.Forms.TextBox();
-            this.lblMessage = new System.Windows.Forms.Label();
-            this.btnTransfer = new System.Windows.Forms.Button();
-            this.txtAmount = new System.Windows.Forms.TextBox();
-            this.lblAmount = new System.Windows.Forms.Label();
-            this.txtRecipientAccountNumber = new System.Windows.Forms.TextBox();
-            this.lblRecipientAccountNumber = new System.Windows.Forms.Label();
-            this.txtSenderAccountNumber = new System.Windows.Forms.TextBox();
-            this.lblSenderAccountNumber = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            label1 = new Label();
+            label2 = new Label();
+            txtIDCardRemitter = new TextBox();
+            textBox1 = new TextBox();
+            label3 = new Label();
+            txtMoneySend = new TextBox();
+            label4 = new Label();
+            btnSend = new Button();
+            SuspendLayout();
             // 
-            // txtMessage
+            // label1
             // 
-            this.txtMessage.Location = new System.Drawing.Point(387, 262);
-            this.txtMessage.Name = "txtMessage";
-            this.txtMessage.Size = new System.Drawing.Size(100, 23);
-            this.txtMessage.TabIndex = 17;
+            label1.AutoSize = true;
+            label1.Font = new Font("Showcard Gothic", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(109, 40);
+            label1.Name = "label1";
+            label1.Size = new Size(258, 43);
+            label1.TabIndex = 0;
+            label1.Text = "TRANSACTION";
             // 
-            // lblMessage
+            // label2
             // 
-            this.lblMessage.AutoSize = true;
-            this.lblMessage.Location = new System.Drawing.Point(220, 262);
-            this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(53, 15);
-            this.lblMessage.TabIndex = 16;
-            this.lblMessage.Text = "Message";
+            label2.AutoSize = true;
+            label2.Location = new Point(204, 118);
+            label2.Name = "label2";
+            label2.Size = new Size(251, 20);
+            label2.TabIndex = 1;
+            label2.Text = "Please enter identity card of remitter";
             // 
-            // btnTransfer
+            // txtIDCardRemitter
             // 
-            this.btnTransfer.Location = new System.Drawing.Point(290, 341);
-            this.btnTransfer.Name = "btnTransfer";
-            this.btnTransfer.Size = new System.Drawing.Size(75, 23);
-            this.btnTransfer.TabIndex = 15;
-            this.btnTransfer.Text = "Transfer";
-            this.btnTransfer.UseVisualStyleBackColor = true;
+            txtIDCardRemitter.Location = new Point(204, 164);
+            txtIDCardRemitter.Name = "txtIDCardRemitter";
+            txtIDCardRemitter.Size = new Size(328, 27);
+            txtIDCardRemitter.TabIndex = 2;
             // 
-            // txtAmount
+            // textBox1
             // 
-            this.txtAmount.Location = new System.Drawing.Point(387, 211);
-            this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(100, 23);
-            this.txtAmount.TabIndex = 14;
+            textBox1.Location = new Point(204, 277);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(328, 27);
+            textBox1.TabIndex = 4;
             // 
-            // lblAmount
+            // label3
             // 
-            this.lblAmount.AutoSize = true;
-            this.lblAmount.Location = new System.Drawing.Point(220, 211);
-            this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(51, 15);
-            this.lblAmount.TabIndex = 13;
-            this.lblAmount.Text = "Amount";
+            label3.AutoSize = true;
+            label3.Location = new Point(204, 231);
+            label3.Name = "label3";
+            label3.Size = new Size(250, 20);
+            label3.TabIndex = 3;
+            label3.Text = "Please enter identity card of receiver";
             // 
-            // txtRecipientAccountNumber
+            // txtMoneySend
             // 
-            this.txtRecipientAccountNumber.Location = new System.Drawing.Point(387, 136);
-            this.txtRecipientAccountNumber.Name = "txtRecipientAccountNumber";
-            this.txtRecipientAccountNumber.Size = new System.Drawing.Size(100, 23);
-            this.txtRecipientAccountNumber.TabIndex = 12;
+            txtMoneySend.Location = new Point(204, 405);
+            txtMoneySend.Name = "txtMoneySend";
+            txtMoneySend.Size = new Size(328, 27);
+            txtMoneySend.TabIndex = 6;
             // 
-            // lblRecipientAccountNumber
+            // label4
             // 
-            this.lblRecipientAccountNumber.AutoSize = true;
-            this.lblRecipientAccountNumber.Location = new System.Drawing.Point(220, 139);
-            this.lblRecipientAccountNumber.Name = "lblRecipientAccountNumber";
-            this.lblRecipientAccountNumber.Size = new System.Drawing.Size(145, 15);
-            this.lblRecipientAccountNumber.TabIndex = 11;
-            this.lblRecipientAccountNumber.Text = "RecipientAccountNumber";
+            label4.AutoSize = true;
+            label4.Location = new Point(204, 359);
+            label4.Name = "label4";
+            label4.Size = new Size(191, 20);
+            label4.TabIndex = 5;
+            label4.Text = "Please enter money to send";
             // 
-            // txtSenderAccountNumber
+            // btnSend
             // 
-            this.txtSenderAccountNumber.Location = new System.Drawing.Point(387, 72);
-            this.txtSenderAccountNumber.Name = "txtSenderAccountNumber";
-            this.txtSenderAccountNumber.Size = new System.Drawing.Size(100, 23);
-            this.txtSenderAccountNumber.TabIndex = 10;
-            // 
-            // lblSenderAccountNumber
-            // 
-            this.lblSenderAccountNumber.AutoSize = true;
-            this.lblSenderAccountNumber.Location = new System.Drawing.Point(220, 72);
-            this.lblSenderAccountNumber.Name = "lblSenderAccountNumber";
-            this.lblSenderAccountNumber.Size = new System.Drawing.Size(132, 15);
-            this.lblSenderAccountNumber.TabIndex = 9;
-            this.lblSenderAccountNumber.Text = "SenderAccountNumber";
+            btnSend.Location = new Point(316, 484);
+            btnSend.Name = "btnSend";
+            btnSend.Size = new Size(94, 29);
+            btnSend.TabIndex = 7;
+            btnSend.Text = "Send";
+            btnSend.UseVisualStyleBackColor = true;
             // 
             // UCTransactions
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.txtMessage);
-            this.Controls.Add(this.lblMessage);
-            this.Controls.Add(this.btnTransfer);
-            this.Controls.Add(this.txtAmount);
-            this.Controls.Add(this.lblAmount);
-            this.Controls.Add(this.txtRecipientAccountNumber);
-            this.Controls.Add(this.lblRecipientAccountNumber);
-            this.Controls.Add(this.txtSenderAccountNumber);
-            this.Controls.Add(this.lblSenderAccountNumber);
-            this.Name = "UCTransactions";
-            this.Size = new System.Drawing.Size(706, 436);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnSend);
+            Controls.Add(txtMoneySend);
+            Controls.Add(label4);
+            Controls.Add(textBox1);
+            Controls.Add(label3);
+            Controls.Add(txtIDCardRemitter);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "UCTransactions";
+            Size = new Size(807, 581);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private TextBox txtMessage;
-        private Label lblMessage;
-        private Button btnTransfer;
-        private TextBox txtAmount;
-        private Label lblAmount;
-        private TextBox txtRecipientAccountNumber;
-        private Label lblRecipientAccountNumber;
-        private TextBox txtSenderAccountNumber;
-        private Label lblSenderAccountNumber;
+        private Label label1;
+        private Label label2;
+        private TextBox txtIDCardRemitter;
+        private TextBox textBox1;
+        private Label label3;
+        private TextBox txtMoneySend;
+        private Label label4;
+        private Button btnSend;
     }
 }
