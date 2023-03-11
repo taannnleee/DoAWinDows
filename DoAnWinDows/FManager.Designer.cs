@@ -28,114 +28,109 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.managerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.accountManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.employeeManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.utilitiesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.transactionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rechargeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.withdrawToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bankSavingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelContainer = new System.Windows.Forms.Panel();
-            this.menuStrip1.SuspendLayout();
-            this.SuspendLayout();
+            menuStrip1 = new MenuStrip();
+            managerToolStripMenuItem = new ToolStripMenuItem();
+            accountManagerToolStripMenuItem = new ToolStripMenuItem();
+            employeeManagerToolStripMenuItem = new ToolStripMenuItem();
+            utilitiesToolStripMenuItem = new ToolStripMenuItem();
+            transactionsToolStripMenuItem = new ToolStripMenuItem();
+            rechargeToolStripMenuItem = new ToolStripMenuItem();
+            withdrawToolStripMenuItem = new ToolStripMenuItem();
+            bankSavingsToolStripMenuItem = new ToolStripMenuItem();
+            panelContainer = new Panel();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.managerToolStripMenuItem,
-            this.utilitiesToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { managerToolStripMenuItem, utilitiesToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(914, 30);
+            menuStrip1.TabIndex = 0;
+            menuStrip1.Text = "menuStrip1";
             // 
             // managerToolStripMenuItem
             // 
-            this.managerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.accountManagerToolStripMenuItem,
-            this.employeeManagerToolStripMenuItem});
-            this.managerToolStripMenuItem.Name = "managerToolStripMenuItem";
-            this.managerToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-            this.managerToolStripMenuItem.Text = "Manager";
+            managerToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { accountManagerToolStripMenuItem, employeeManagerToolStripMenuItem });
+            managerToolStripMenuItem.Name = "managerToolStripMenuItem";
+            managerToolStripMenuItem.Size = new Size(82, 24);
+            managerToolStripMenuItem.Text = "Manager";
             // 
             // accountManagerToolStripMenuItem
             // 
-            this.accountManagerToolStripMenuItem.Name = "accountManagerToolStripMenuItem";
-            this.accountManagerToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            this.accountManagerToolStripMenuItem.Text = "Account Manager";
-            this.accountManagerToolStripMenuItem.Click += new System.EventHandler(this.accountManagerToolStripMenuItem_Click);
+            accountManagerToolStripMenuItem.Name = "accountManagerToolStripMenuItem";
+            accountManagerToolStripMenuItem.Size = new Size(221, 26);
+            accountManagerToolStripMenuItem.Text = "Account Manager";
+            accountManagerToolStripMenuItem.Click += accountManagerToolStripMenuItem_Click;
             // 
             // employeeManagerToolStripMenuItem
             // 
-            this.employeeManagerToolStripMenuItem.Name = "employeeManagerToolStripMenuItem";
-            this.employeeManagerToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
-            this.employeeManagerToolStripMenuItem.Text = "Employee Manager";
-            this.employeeManagerToolStripMenuItem.Click += new System.EventHandler(this.employeeManagerToolStripMenuItem_Click);
+            employeeManagerToolStripMenuItem.Name = "employeeManagerToolStripMenuItem";
+            employeeManagerToolStripMenuItem.Size = new Size(221, 26);
+            employeeManagerToolStripMenuItem.Text = "Employee Manager";
+            employeeManagerToolStripMenuItem.Click += employeeManagerToolStripMenuItem_Click;
             // 
             // utilitiesToolStripMenuItem
             // 
-            this.utilitiesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.transactionsToolStripMenuItem,
-            this.rechargeToolStripMenuItem,
-            this.withdrawToolStripMenuItem,
-            this.bankSavingsToolStripMenuItem});
-            this.utilitiesToolStripMenuItem.Name = "utilitiesToolStripMenuItem";
-            this.utilitiesToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.utilitiesToolStripMenuItem.Text = "Utilities";
+            utilitiesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { transactionsToolStripMenuItem, rechargeToolStripMenuItem, withdrawToolStripMenuItem, bankSavingsToolStripMenuItem });
+            utilitiesToolStripMenuItem.Name = "utilitiesToolStripMenuItem";
+            utilitiesToolStripMenuItem.Size = new Size(73, 24);
+            utilitiesToolStripMenuItem.Text = "Utilities";
             // 
             // transactionsToolStripMenuItem
             // 
-            this.transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
-            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.transactionsToolStripMenuItem.Text = "Transactions";
-            this.transactionsToolStripMenuItem.Click += new System.EventHandler(this.transactionsToolStripMenuItem_Click);
+            transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
+            transactionsToolStripMenuItem.Size = new Size(174, 26);
+            transactionsToolStripMenuItem.Text = "Transactions";
+            transactionsToolStripMenuItem.Click += transactionsToolStripMenuItem_Click;
             // 
             // rechargeToolStripMenuItem
             // 
-            this.rechargeToolStripMenuItem.Name = "rechargeToolStripMenuItem";
-            this.rechargeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rechargeToolStripMenuItem.Text = "Recharge";
-            this.rechargeToolStripMenuItem.Click += new System.EventHandler(this.rechargeToolStripMenuItem_Click);
+            rechargeToolStripMenuItem.Name = "rechargeToolStripMenuItem";
+            rechargeToolStripMenuItem.Size = new Size(174, 26);
+            rechargeToolStripMenuItem.Text = "Recharge";
+            rechargeToolStripMenuItem.Click += rechargeToolStripMenuItem_Click;
             // 
             // withdrawToolStripMenuItem
             // 
-            this.withdrawToolStripMenuItem.Name = "withdrawToolStripMenuItem";
-            this.withdrawToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.withdrawToolStripMenuItem.Text = "Withdraw";
-            this.withdrawToolStripMenuItem.Click += new System.EventHandler(this.withdrawToolStripMenuItem_Click);
+            withdrawToolStripMenuItem.Name = "withdrawToolStripMenuItem";
+            withdrawToolStripMenuItem.Size = new Size(174, 26);
+            withdrawToolStripMenuItem.Text = "Withdraw";
+            withdrawToolStripMenuItem.Click += withdrawToolStripMenuItem_Click;
             // 
             // bankSavingsToolStripMenuItem
             // 
-            this.bankSavingsToolStripMenuItem.Name = "bankSavingsToolStripMenuItem";
-            this.bankSavingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.bankSavingsToolStripMenuItem.Text = "BankSavings";
-            this.bankSavingsToolStripMenuItem.Click += new System.EventHandler(this.bankSavingsToolStripMenuItem_Click);
+            bankSavingsToolStripMenuItem.Name = "bankSavingsToolStripMenuItem";
+            bankSavingsToolStripMenuItem.Size = new Size(174, 26);
+            bankSavingsToolStripMenuItem.Text = "BankSavings";
+            bankSavingsToolStripMenuItem.Click += bankSavingsToolStripMenuItem_Click;
             // 
             // panelContainer
             // 
-            this.panelContainer.Location = new System.Drawing.Point(0, 27);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(800, 420);
-            this.panelContainer.TabIndex = 1;
+            panelContainer.Location = new Point(0, 36);
+            panelContainer.Margin = new Padding(3, 4, 3, 4);
+            panelContainer.Name = "panelContainer";
+            panelContainer.Size = new Size(914, 560);
+            panelContainer.TabIndex = 1;
             // 
             // FManager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panelContainer);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "FManager";
-            this.Text = "Manager";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(914, 600);
+            Controls.Add(panelContainer);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "FManager";
+            Text = "Manager";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

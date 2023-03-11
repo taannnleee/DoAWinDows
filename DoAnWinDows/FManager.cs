@@ -27,7 +27,7 @@ namespace DoAnWinDows
 
         private void accountManagerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UCAccountManager account = new UCAccountManager(); 
+            UCAccountManager account = new UCAccountManager();
             AddUserControl(account);
         }
 
