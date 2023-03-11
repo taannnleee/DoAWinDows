@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj": {}
+    "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj": {
+    "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+        "projectUniqueName": "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
         "projectName": "DoAnWinDows",
-        "projectPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+        "projectPath": "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
         "packagesPath": "C:\\Users\\Tan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\obj\\",
+        "outputPath": "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
