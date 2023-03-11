@@ -2296,11 +2296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+      "projectUniqueName": "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
       "projectName": "DoAnWinDows",
-      "projectPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
+      "projectPath": "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\DoAnWinDows.csproj",
       "packagesPath": "C:\\Users\\Tan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tan\\Downloads\\DoAnWinDows\\DoAWinDows\\DoAnWinDows\\obj\\",
+      "outputPath": "C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2365,5 +2365,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Tan\\Downloads\\temp\\DoAWinDows\\DoAnWinDows\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
