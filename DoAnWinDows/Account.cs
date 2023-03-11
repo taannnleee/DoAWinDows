@@ -18,6 +18,7 @@ namespace DoAnWinDows
         private string address;
         private DateTime dateofbirth;
         private string gender;
+        private string balance;
 
 
         public string Name { get { return name; } set { name = value; } }
@@ -30,9 +31,10 @@ namespace DoAnWinDows
         public string Gender { get { return gender; } set { gender = value; } }
         public string Job { get { return job; } set { job = value; } }
         public string Email { get { return email; } set { email = value; } }
+        public string Balance { get => balance; set => balance = value; }
 
         public Account() { }
-        public Account(string name, string phone, string password, string identitycard, string job, string email, string address, DateTime dateofbirth, string gender)
+        public Account(string name, string phone, string password, string identitycard, string job, string email, string address, DateTime dateofbirth, string gender, string balance)
         {
             Name = name;
             Password = password;
@@ -43,6 +45,7 @@ namespace DoAnWinDows
             Address = address;
             Dateofbirth = dateofbirth;
             Gender = gender;
+            Balance = balance;
         }
     }
 }
