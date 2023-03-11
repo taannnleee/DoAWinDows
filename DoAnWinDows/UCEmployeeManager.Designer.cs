@@ -40,7 +40,7 @@
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.lblAddress = new System.Windows.Forms.Label();
             this.tblEmail = new System.Windows.Forms.Label();
-            this.gvQuanLy = new System.Windows.Forms.DataGridView();
+            this.gvEmployee = new System.Windows.Forms.DataGridView();
             this.btnSua = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -51,7 +51,7 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblPhone = new System.Windows.Forms.Label();
             this.lblFullName = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.gvQuanLy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvEmployee)).BeginInit();
             this.SuspendLayout();
             // 
             // txtSalary
@@ -158,16 +158,16 @@
             this.tblEmail.TabIndex = 242;
             this.tblEmail.Text = "Email";
             // 
-            // gvQuanLy
+            // gvEmployee
             // 
-            this.gvQuanLy.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvQuanLy.Location = new System.Drawing.Point(305, 44);
-            this.gvQuanLy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gvQuanLy.Name = "gvQuanLy";
-            this.gvQuanLy.RowHeadersWidth = 51;
-            this.gvQuanLy.RowTemplate.Height = 29;
-            this.gvQuanLy.Size = new System.Drawing.Size(485, 326);
-            this.gvQuanLy.TabIndex = 241;
+            this.gvEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gvEmployee.Location = new System.Drawing.Point(305, 44);
+            this.gvEmployee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gvEmployee.Name = "gvEmployee";
+            this.gvEmployee.RowHeadersWidth = 51;
+            this.gvEmployee.RowTemplate.Height = 29;
+            this.gvEmployee.Size = new System.Drawing.Size(485, 326);
+            this.gvEmployee.TabIndex = 241;
             // 
             // btnSua
             // 
@@ -179,6 +179,7 @@
             this.btnSua.TabIndex = 240;
             this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // label3
             // 
@@ -200,6 +201,7 @@
             this.btnXoa.TabIndex = 238;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -211,6 +213,7 @@
             this.btnThem.TabIndex = 237;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // txtIdentitycard
             // 
@@ -263,7 +266,7 @@
             this.lblFullName.TabIndex = 231;
             this.lblFullName.Text = "FullName";
             // 
-            // USEmployeeManager
+            // UCEmployeeManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -279,7 +282,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.tblEmail);
-            this.Controls.Add(this.gvQuanLy);
+            this.Controls.Add(this.gvEmployee);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnXoa);
@@ -290,9 +293,10 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblPhone);
             this.Controls.Add(this.lblFullName);
-            this.Name = "USEmployeeManager";
+            this.Name = "UCEmployeeManager";
             this.Size = new System.Drawing.Size(691, 512);
-            ((System.ComponentModel.ISupportInitialize)(this.gvQuanLy)).EndInit();
+            this.Load += new System.EventHandler(this.UCEmployeeManager_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gvEmployee)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -312,7 +316,7 @@
         private TextBox txtEmail;
         private Label lblAddress;
         private Label tblEmail;
-        private DataGridView gvQuanLy;
+        private DataGridView gvEmployee;
         private Button btnSua;
         private Label label3;
         private Button btnXoa;

@@ -110,3 +110,5 @@ C:\Users\Tan\Downloads\DoAnWinDows\DoAWinDows\DoAnWinDows\obj\Debug\net6.0-windo
 C:\Users\Tan\Downloads\DoAnWinDows\DoAWinDows\DoAnWinDows\obj\Debug\net6.0-windows\DoAnWinDows.pdb
 C:\Users\Tan\Downloads\DoAnWinDows\DoAWinDows\DoAnWinDows\obj\Debug\net6.0-windows\DoAnWinDows.genruntimeconfig.cache
 C:\Users\Tan\Downloads\DoAnWinDows\DoAWinDows\DoAnWinDows\obj\Debug\net6.0-windows\ref\DoAnWinDows.dll
+C:\Users\Tan\Downloads\DoAnWinDows\DoAWinDows\DoAnWinDows\obj\Debug\net6.0-windows\DoAnWinDows.UCEmployeeInformation.resources
+C:\Users\Tan\Downloads\DoAnWinDows\DoAWinDows\DoAnWinDows\obj\Debug\net6.0-windows\DoAnWinDows.UCAccountInformation.resources
